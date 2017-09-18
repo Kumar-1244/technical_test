@@ -18,8 +18,8 @@ directly in this README file.
 > 2. Extract it to the folder you want
 > 3. Add those two environment variables to your run configuration in your IDE:
 >
->     HADOOP_HOME	  \path\to\hadoop-common-2.2.0-bin-master
->     PATH	        $PATH:$HADOOP_HOME\bin
+>     - HADOOP_HOME	  \path\to\hadoop-common-2.2.0-bin-master
+>     - PATH	        $PATH:$HADOOP_HOME\bin
 
 ...
 
@@ -44,9 +44,9 @@ exercise.
  of your choice), but this time partitioned by age, *excluding* people that are younger than 21. Output should look
  like :
 
-    \path\age=21\***.avro
-    \path\age=24\***.avro
-    ...
+    - \path\age=21\***.avro
+    - \path\age=24\***.avro
+    - ...
 
 
 ### Questions:
