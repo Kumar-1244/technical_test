@@ -44,8 +44,8 @@ exercise.
  of your choice), but this time partitioned by age, *excluding* people that are younger than 21. Output should look
  like :
 
-    - \path\age=21\***.avro
-    - \path\age=24\***.avro
+    - \path\age=21\\***.avro
+    - \path\age=24\\***.avro
     - ...
 
 
