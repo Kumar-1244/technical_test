@@ -19,21 +19,23 @@ The goal of this first exercise is to review quickly the basics of Scala. In the
 have been initialized.
 
 1. Complete the implementation of the method printStatus that should print the output:
-> D is young [8]
-> A is young [15]
-> G is young [21]
-> B is not that young [24]
-> F is not that young [34]
-> C is not that young [62]
+
+> D is young [8]<br>
+> A is young [15]<br>
+> G is young [21]<br>
+> B is not that young [24]<br>
+> F is not that young [34]<br>
+> C is not that young [62]<br>
 > E is not that young [90]
 
 2. Complete the implementation of the method getCityStats that should return a Map of the city names with their occurrences:
-Map(
-    "Quebec" -> 1
-    "Granby" -> 1
-    "Montreal" -> 4
-    "Sherbrooke" -> 1
-)
+
+> Map(<br>
+>    "Quebec" -> 1<br>
+>    "Granby" -> 1<br>
+>    "Montreal" -> 4<br>
+>    "Sherbrooke" -> 1<br>
+> )
 
 
 #### Part 2
