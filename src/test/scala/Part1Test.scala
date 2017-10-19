@@ -1,6 +1,6 @@
 import org.scalatest.FunSuite
 
-class ApplicationTest extends FunSuite {
+class Part1Test extends FunSuite {
 
   test("dummy") {
     assert(1 == 1)
