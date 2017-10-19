@@ -9,23 +9,6 @@ directly in this README file.
 
 --------
 
-### Coding exercise:
-
-
-> On Windows, you need to download Hadoop binaries so that Spark can work. Please follow those steps:
->
-> 1. Download https://github.com/srccodes/hadoop-common-2.2.0-bin/archive/master.zip
-> 2. Extract it to the folder you want
-> 3. Add those two environment variables to your run configuration in your IDE:
->
->     - HADOOP_HOME	  \path\to\hadoop-common-2.2.0-bin-master
->     - PATH	        $PATH:$HADOOP_HOME\bin
-
-...
-
-> If there is a problem loading the dependencies (Server timed out), please export the following environment
-> variable : SBT_OPTS="-Dhttp.proxySet=true -Dhttp.proxyHost=proxy.ubisoft.org -Dhttp.proxyPort=3128
-> -Dhttps.proxyHost=proxy.ubisoft.org -Dhttps.proxyPort=3128 -Dhttp.nonProxyHosts=localhost,127.0.0.1,.ubisoft.org"
 
 The goal of this exercise is to ingest and manipulate a small dataset contained in the Avro files located at
 src/main/resources/input. The Avro schema is provided in the src/main/resources/avro_utils folder.
