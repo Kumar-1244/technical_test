@@ -10,5 +10,5 @@ libraryDependencies ++= Seq(
 
   "com.databricks" % "spark-avro_2.11" % "3.1.0",
 
-  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+  "org.scalatest" %% "scalatest" % "2.2.0" % "test"
 )
